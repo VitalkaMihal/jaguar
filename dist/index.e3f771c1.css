@@ -1,0 +1,83 @@
+.main__article {
+  width: 100%;
+  border-color: #f0f0f0;
+  padding: 72px 70px;
+}
+
+.main__article h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 72px;
+  font-size: 24px;
+}
+
+.main__article .main__article-content {
+  justify-content: space-between;
+  display: flex;
+}
+
+.main__article .main__article-content .main__article-card {
+  max-width: 30%;
+  margin: 0 20px;
+}
+
+.main__article .main__article-content .main__article-card img {
+  max-width: 100%;
+}
+
+.main__article .main__article-content .main__article-card .main__article-card-text {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.main__article .main__article-content .main__article-card .main__article-card-text h3 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main__article .main__article-content .main__article-card .main__article-card-text h5 {
+  color: #3c3c3b;
+  margin: 40px 0;
+  font-size: 13px;
+}
+
+.main__article .main__article-content .main__article-card .main__article-card-text a {
+  text-transform: uppercase;
+  transition-duration: .5s;
+}
+
+.main__article .main__article-content .main__article-card .main__article-card-text a:hover {
+  opacity: .8;
+  text-decoration: underline;
+}
+
+.main__article .main__article-circle-container {
+  margin-top: 70px;
+  margin-left: 25px;
+  display: flex;
+}
+
+.main__article .main__article-circle-container .main__article-circle1, .main__article .main__article-circle-container .main__article-circle2, .main__article .main__article-circle-container .main__article-circle3 {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #3c3c3b;
+  border-radius: 50%;
+  margin-right: 20px;
+  transition-duration: .3s;
+}
+
+.main__article .main__article-circle-container .main__article-circle1:hover, .main__article .main__article-circle-container .main__article-circle2:hover, .main__article .main__article-circle-container .main__article-circle3:hover {
+  cursor: pointer;
+  background-color: #3c3c3b;
+}
+
+.main__article .main__article-circle-container .main__article-circle1 {
+  background-color: #030303;
+  border: 2px solid #030303;
+}
+
+/*# sourceMappingURL=index.e3f771c1.css.map */

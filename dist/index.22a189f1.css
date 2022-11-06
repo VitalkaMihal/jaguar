@@ -1,0 +1,65 @@
+.main__second-box {
+  height: 357px;
+  display: flex;
+}
+
+.main__second-box .main__second-box-card {
+  width: 35%;
+  height: 357px;
+  background-color: #141414;
+  padding-top: 72px;
+  padding-left: 90px;
+  padding-right: 40px;
+}
+
+.main__second-box .main__second-box-card h3 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main__second-box .main__second-box-card h4 {
+  color: #fff;
+  letter-spacing: 1px;
+  margin-top: 26px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.main__second-box .main__second-box-card button {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #3c3c3b;
+  border: 1px solid #3c3c3b;
+  margin: 35px auto 0 0;
+  padding: 15px 20px 12px 50px;
+  font-size: 12px;
+  font-weight: bold;
+  transition-duration: .5s;
+  position: relative;
+}
+
+.main__second-box .main__second-box-card button:hover {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.main__second-box .main__second-box-card button .fa-arrow-right-long {
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.main__second-box .main__second-box-img {
+  height: 357px;
+  width: 65%;
+  background: url("image2-1.90b67f88.webp") center / cover no-repeat;
+}
+
+/*# sourceMappingURL=index.22a189f1.css.map */

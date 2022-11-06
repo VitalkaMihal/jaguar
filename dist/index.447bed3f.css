@@ -1,0 +1,67 @@
+.main__third-box {
+  height: 357px;
+  display: flex;
+}
+
+.main__third-box .main__third-box-card {
+  width: 35%;
+  height: 357px;
+  background-color: #fff;
+  padding-top: 72px;
+  padding-left: 90px;
+  padding-right: 40px;
+}
+
+.main__third-box .main__third-box-card h3 {
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.main__third-box .main__third-box-card h4 {
+  color: #000;
+  letter-spacing: 1px;
+  margin-top: 31px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.main__third-box .main__third-box-card button {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #3c3c3b;
+  border: 1px solid #3c3c3b;
+  margin: 15px auto 0 0;
+  padding: 15px 20px 12px 50px;
+  font-size: 12px;
+  font-weight: bold;
+  transition-duration: .5s;
+  position: relative;
+}
+
+.main__third-box .main__third-box-card button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.main__third-box .main__third-box-card button .fa-arrow-right-long {
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.main__third-box .main__third-box-img {
+  height: 357px;
+  width: 65%;
+  background: url("image2.00e53d19.webp") center / cover no-repeat;
+}
+
+/*# sourceMappingURL=index.447bed3f.css.map */

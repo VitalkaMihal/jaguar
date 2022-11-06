@@ -1,0 +1,86 @@
+@mixin card-style {
+    h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #000000;
+        line-height: 18px;
+        margin-top: 28px;
+        letter-spacing: normal;
+    }
+    h4 {
+        font-size: 12px;
+        color: #000000;
+        line-height: 19px;;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+    button {
+        width: 188px;
+        display: flex;
+        padding: 15px 20px 12px 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: #3c3c3b;
+        margin: 30px auto 24px 0;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border: 1px solid #3c3c3b;
+        position: relative;
+        transition-duration: 0.5s;
+        justify-content: space-between;
+        align-items: center;
+        &:hover {
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            color: #000;
+            
+        }
+        .fa-arrow-right-long {
+                display: inline-block;
+                font-size: 18px;
+                position: absolute;
+                left: 20px;
+                bottom: 10px;
+            }
+            .fa-car {
+                font-size: 16px;
+            }
+            
+            }
+        }
+    a {
+        color: #000000;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        &:hover {
+        text-decoration: underline;
+        opacity: 0.7;
+    }
+}
+
+
+.main__pricing {
+    width: 100%;
+    padding: 80px 90px;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    img {
+        max-width: 100%;
+    }
+    .main__pricing-card__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include card-style;
+        height: 230px;
+    }
+    .priceEnd {
+        height: 150px;
+    }
+}

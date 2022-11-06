@@ -1,0 +1,26 @@
+{
+  "name": "jaguar",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitalkaMihal/jaguar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitalkaMihal/jaguar/issues"
+  },
+  "homepage": "https://github.com/VitalkaMihal/jaguar#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.56.0"
+  }
+}

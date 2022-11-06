@@ -1,0 +1,59 @@
+.main__fourht-box {
+  width: 100%;
+  height: 480px;
+  background: url("image1-3.95a67adb.jpg") center / cover no-repeat;
+  position: relative;
+}
+
+.main__fourht-box .main__fourht-box-card {
+  background-color: #141414cc;
+  flex-direction: column;
+  padding: 20px;
+  display: flex;
+  position: absolute;
+  bottom: calc(50% - 90px);
+  left: 60px;
+}
+
+.main__fourht-box .main__fourht-box-card h2 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main__fourht-box .main__fourht-box-card h4 {
+  color: #fff;
+  margin-top: 18px;
+  font-size: 13px;
+}
+
+.main__fourht-box .main__fourht-box-card button {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #3c3c3b;
+  border: 1px solid #3c3c3b;
+  margin: 35px auto 0 0;
+  padding: 15px 20px 12px 50px;
+  font-size: 12px;
+  font-weight: bold;
+  transition-duration: .5s;
+  position: relative;
+}
+
+.main__fourht-box .main__fourht-box-card button:hover {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.main__fourht-box .main__fourht-box-card button .fa-arrow-right-long {
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+/*# sourceMappingURL=index.c7e617ac.css.map */

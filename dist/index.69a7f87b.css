@@ -1,0 +1,157 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+:focus, :active, a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 1;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.container-jaguar {
+  font-family: Roboto, sans-serif;
+}
+
+.container-jaguar .jaguar__header {
+  height: 72px;
+  width: 100%;
+  z-index: 1;
+  background-color: #3c3c3b;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container-jaguar .jaguar__header img {
+  height: 66px;
+  margin-top: 2px;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__nav {
+  display: flex;
+}
+
+.container-jaguar .jaguar__header a {
+  height: 72px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__search {
+  align-items: center;
+  margin: 0 0 0 auto;
+  display: flex;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__search div {
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  line-height: 72px;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__search div:hover {
+  cursor: pointer;
+  background-color: #656564;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__search div i {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__online {
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  background: #3c3c3b;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 35px;
+  transition-duration: .5s;
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__online:hover {
+  cursor: pointer;
+  letter-spacing: 3px;
+  background-color: #000;
+}
+
+.container-jaguar .jaguar__header .jaguar__header__button {
+  color: #fff;
+  text-transform: uppercase;
+  width: 151px;
+  height: 44px;
+  background-color: #000;
+  background-image: url("Chat-icon.10be98f9.png");
+  position: fixed;
+  bottom: 25px;
+  right: 22px;
+}
+
+/*# sourceMappingURL=index.69a7f87b.css.map */

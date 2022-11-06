@@ -1,0 +1,54 @@
+.main__fourht-box {
+    width: 100%;
+    background: url(../image/image1-3.jpg) center no-repeat;
+    background-size: cover;
+    height: 480px;
+    position: relative;
+    .main__fourht-box-card {
+        background-color: rgba(20, 20, 20, 0.8);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        bottom: calc(50% - 90px);
+        left: 60px;
+        h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #FFFFFF;
+            letter-spacing: 3px;
+        }
+        h4 {
+            margin-top: 18px;
+            font-size: 13px;
+            color: #FFFFFF;
+            
+        }
+        button {
+            padding: 15px 20px 12px 50px;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background-color: #3c3c3b;
+            margin: 35px auto 0 0;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border: 1px solid #3c3c3b;
+            position: relative;
+            transition-duration: 0.5s;
+            &:hover {
+                background-color: black;
+                border: 1px solid #ffffff;
+                
+            }
+            .fa-arrow-right-long {
+                    display: inline-block;
+                    font-size: 18px;
+                    position: absolute;
+                    left: 20px;
+                    bottom: 10px;
+                }
+        }
+    }
+}
