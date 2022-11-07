@@ -1,3 +1,55 @@
+.main__section {
+  max-width: 100%;
+  min-height: 215px;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0 70px;
+  display: flex;
+}
 
+.main__section a {
+  border-right: 1px solid #f0f0f0;
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.main__section a:first-child {
+  margin-left: 0;
+}
+
+.main__section a:last-child {
+  border-right: none;
+}
+
+.main__section a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.main__section a:hover .main__section-card-link {
+  opacity: .7;
+  text-decoration: underline;
+}
+
+.main__section a .main__section-card {
+  min-height: 215px;
+  padding: 57px 20px 51px;
+}
+
+.main__section a .main__section-card .main__section-card-logo {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.main__section a .main__section-card .main__section-card-link {
+  text-transform: uppercase;
+  font-weight: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.main__section a .main__section-card .main__section-card-text {
+  letter-spacing: normal;
+  font-weight: 300;
+}
 
 /*# sourceMappingURL=index.c7cfabfb.css.map */
