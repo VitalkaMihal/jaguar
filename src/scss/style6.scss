@@ -52,3 +52,43 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .main__fourht-box {
+        height: 400px;
+        .main__fourht-box-card {
+            left: 20px;
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .main__fourht-box { 
+        height: 560px;
+        background-position: 50% -100px;
+        display: flex;
+        .main__fourht-box-card {
+            background-color: rgba(20, 20, 20, 1);
+            position: static;
+            align-self: end;
+            width: 100%;
+            text-align: center;
+            h4 {
+                font-size: 16px;
+            }
+            button {
+                margin: 24px auto 15px auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .main__fourht-box { 
+        height: 350px;
+        background-position: 50% -100px;
+        }
+}

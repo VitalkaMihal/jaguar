@@ -3,6 +3,7 @@
         width: 100%;
         padding: 15px 90px;
         display: flex;
+        flex-wrap: wrap;
         border-bottom: 1px solid #9fa6ad;
         border-top: 1px solid #9fa6ad;
         .footer-link-img {
@@ -40,3 +41,16 @@
     }
 }
 
+@media screen and (max-width: 1240px) {
+    #uk-link { 
+            width: 90%;
+            margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    #jlrc {
+        width: 90%;
+        margin-top: 30px;
+    }
+}

@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .container-jaguar {
     font-family: 'Roboto', sans-serif;
     .jaguar__header {
+        .jaguar__header-burger {
+            display: none;
+        }
         background-color:#3c3c3b;
         height: 72px;
         display: flex;
@@ -118,6 +121,62 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
             background-image: url(../image/Chat-icon.png);
             width: 151px;
             height: 44px;
+        }
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .container-jaguar {
+        .jaguar__header {
+            .jaguar__header-burger {
+                display: flex;
+                color: #fff;
+                align-items: center;
+                width: 48px;
+                justify-content: center;
+            }
+            height: 48px;
+            img {
+                margin-top: -10px;
+            }
+            .jaguar__header__nav {
+                display: none;
+            }
+            .jaguar__header__search {
+                div {
+                    width: 42px;
+                    height: 42px;
+                    text-align: center;
+                    line-height: 42px;
+                    i {
+                    font-size: 14px;
+                    }
+                }
+            }
+            .jaguar__header__online {
+                top: 70px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .container-jaguar {
+        .jaguar__header {
+            .jaguar__header__online {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-jaguar {
+        .jaguar__header {
+            img {
+                margin-top: 5px;
+                height: 42px;
+            }
         }
     }
 }

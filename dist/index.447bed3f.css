@@ -1,11 +1,11 @@
 .main__third-box {
-  height: 357px;
+  max-height: 357px;
   display: flex;
 }
 
 .main__third-box .main__third-box-card {
   width: 35%;
-  height: 357px;
+  max-height: 357px;
   background-color: #fff;
   padding-top: 72px;
   padding-left: 90px;
@@ -36,7 +36,7 @@
   letter-spacing: 1px;
   background-color: #3c3c3b;
   border: 1px solid #3c3c3b;
-  margin: 15px auto 0 0;
+  margin: 15px auto 20px 0;
   padding: 15px 20px 12px 50px;
   font-size: 12px;
   font-weight: bold;
@@ -59,9 +59,34 @@
 }
 
 .main__third-box .main__third-box-img {
-  height: 357px;
   width: 65%;
-  background: url("image2.00e53d19.webp") center / cover no-repeat;
+}
+
+.main__third-box .main__third-box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__third-box {
+    max-height: 650px;
+    flex-direction: column;
+  }
+
+  .main__third-box .main__third-box-card {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .main__third-box .main__third-box-img {
+    width: 100%;
+  }
+
+  .main__third-box .main__third-box-img img {
+    max-height: 400px;
+  }
 }
 
 /*# sourceMappingURL=index.447bed3f.css.map */

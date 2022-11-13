@@ -4,7 +4,8 @@
     background-size: cover;
     height: 870px;
     position: relative;
-    margin-top: 72px;
+    margin-top: 48px;
+    display: flex;
     .main__first-box-card {
         background-color: rgba(20, 20, 20, 0.8);
         display: flex;
@@ -52,4 +53,43 @@
                 }
         }
     }
+}
+
+@media screen and (max-width: 900px) {
+    .main__first-box {
+        height: 490px;
+        .main__first-box-card {
+            left: 20px;
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .main__first-box { 
+        height: 450px;
+        background-position: 50% -100px;
+        .main__first-box-card {
+            background-color: rgba(20, 20, 20, 1);
+            position: static;
+            align-self: end;
+            width: 100%;
+            text-align: center;
+            h4 {
+                font-size: 16px;
+            }
+            button {
+                margin: 24px auto 15px auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .main__first-box { 
+        height: 350px;
+        background-position: 50% -100px;
+        }
 }

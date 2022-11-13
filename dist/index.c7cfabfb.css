@@ -2,18 +2,14 @@
   max-width: 100%;
   min-height: 215px;
   border-bottom: 1px solid #f0f0f0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0 70px;
-  display: flex;
+  display: grid;
 }
 
 .main__section a {
   border-right: 1px solid #f0f0f0;
-  flex-grow: 1;
   margin-left: 20px;
-}
-
-.main__section a:first-child {
-  margin-left: 0;
 }
 
 .main__section a:last-child {
@@ -50,6 +46,14 @@
 .main__section a .main__section-card .main__section-card-text {
   letter-spacing: normal;
   font-weight: 300;
+}
+
+@media screen and (max-width: 900px) {
+  .main__section {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=index.c7cfabfb.css.map */

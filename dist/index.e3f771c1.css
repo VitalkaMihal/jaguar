@@ -80,4 +80,24 @@
   border: 2px solid #030303;
 }
 
+@media screen and (max-width: 1000px) {
+  .article-card-three {
+    display: none;
+  }
+
+  .main__article .main__article-content .main__article-card {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .article-card-two {
+    display: none;
+  }
+
+  .main__article .main__article-content .main__article-card {
+    max-width: 100%;
+  }
+}
+
 /*# sourceMappingURL=index.e3f771c1.css.map */

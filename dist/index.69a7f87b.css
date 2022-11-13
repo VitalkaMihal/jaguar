@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+.container-jaguar .jaguar__header .jaguar__header-burger {
+  display: none;
+}
+
 .container-jaguar .jaguar__header img {
   height: 66px;
   margin-top: 2px;
@@ -152,6 +156,56 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   bottom: 25px;
   right: 22px;
+}
+
+@media screen and (max-width: 1020px) {
+  .container-jaguar .jaguar__header {
+    height: 48px;
+  }
+
+  .container-jaguar .jaguar__header .jaguar__header-burger {
+    color: #fff;
+    width: 48px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .container-jaguar .jaguar__header img {
+    margin-top: -10px;
+  }
+
+  .container-jaguar .jaguar__header .jaguar__header__nav {
+    display: none;
+  }
+
+  .container-jaguar .jaguar__header .jaguar__header__search div {
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+  }
+
+  .container-jaguar .jaguar__header .jaguar__header__search div i {
+    font-size: 14px;
+  }
+
+  .container-jaguar .jaguar__header .jaguar__header__online {
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .container-jaguar .jaguar__header .jaguar__header__online {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container-jaguar .jaguar__header img {
+    height: 42px;
+    margin-top: 5px;
+  }
 }
 
 /*# sourceMappingURL=index.69a7f87b.css.map */

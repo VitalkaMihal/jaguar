@@ -2,14 +2,11 @@
     padding: 0 70px;
     max-width: 100%;
     min-height: 215px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border-bottom: 1px solid #f0f0f0;
     a {
-        flex-grow: 1;
         margin-left: 20px;
-        &:first-child {
-            margin-left: 0;
-        }
         border-right: 1px solid #f0f0f0;
         &:last-child {
             border-right: none;
@@ -42,4 +39,12 @@
         }
     }
     
+}
+
+@media screen and (max-width: 900px) {
+    .main__section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0;
+    }
 }

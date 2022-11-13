@@ -2,6 +2,7 @@
   width: 100%;
   border-top: 1px solid #9fa6ad;
   border-bottom: 1px solid #9fa6ad;
+  flex-wrap: wrap;
   padding: 15px 90px;
   display: flex;
 }
@@ -43,6 +44,20 @@
 
 .footer .bold {
   font-weight: bold;
+}
+
+@media screen and (max-width: 1240px) {
+  #uk-link {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  #jlrc {
+    width: 90%;
+    margin-top: 30px;
+  }
 }
 
 /*# sourceMappingURL=index.6cbe4aaf.css.map */
