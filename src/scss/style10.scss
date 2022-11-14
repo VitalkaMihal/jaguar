@@ -1,4 +1,7 @@
 .footer {
+    #button-loss {
+        display: none;
+    }
     .footer-link { 
         width: 100%;
         padding: 15px 90px;
@@ -53,4 +56,51 @@
         width: 90%;
         margin-top: 30px;
     }
+}
+
+@media screen and (max-width: 900px) {
+    .footer { 
+        .footer-link {
+            padding: 15px 0px;
+            #line-loss {
+                border-bottom: 1px solid #9fa6ad;
+                width: 100%;
+            }
+            img {
+                padding: 0 0 0 20px ;
+            }
+            #uk-link {
+                margin: 0 0 20px 0;
+                width: 60%;
+                padding: 0;
+            }
+            #jlrc, #loss {
+                display: none;
+            }
+            .footer-link-paragraph {
+                display: flex;
+                width: 100%;
+                margin: 10px 0;
+            }
+            
+            #button-loss {
+                display: block;
+                font-size: 10px;
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                margin: 0 0 0 20px;
+                background-color: #dce8f5;
+                padding: 7px;
+                letter-spacing: 2px;
+                border: 1px solid #dce8f5;
+                &:hover {
+                    border: 1px solid #141414;
+                }
+            }
+        }
+        .footer-info {
+            padding: 15px 20px;
+        }
+    }
+    
 }

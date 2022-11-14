@@ -68,3 +68,35 @@
         }
     }
 }
+
+@media screen and (max-width: 740px) {
+    .main-all-information {
+        padding: 0 20px;
+        .main-all-information-box {
+            display: none;
+        }
+        .main-social-link {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            padding: 32px 0 20px 0;
+            h6 {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            .main-all-information-box-social {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 40px 0;
+                .social-logo {
+                    margin: 0 10px;
+                }
+                .social-text {
+                    display: none;
+                }
+            }
+        }
+    }
+}

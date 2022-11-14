@@ -38,7 +38,6 @@
         }
         }
     }
-    
 }
 
 @media screen and (max-width: 900px) {
@@ -46,5 +45,35 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .main__section {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        border-bottom: 1px solid #f0f0f0;
+        a {
+            border-bottom: 1px solid #f0f0f0;
+            
+            .main__section-card {
+                    min-height: 64px;
+                    padding: 0px;
+                    .main__section-card-logo {
+                        display: inline-block;
+                        font-size: 30px;
+                        vertical-align: bottom;
+                }
+                .main__section-card-link {
+                    display: inline-block;
+                    font-weight: 18px;
+                    line-height: 64px;
+                    margin-bottom: 0px;
+                }
+                .main__section-card-text {
+                    display: none;
+                }
+            }
+        }
     }
 }
